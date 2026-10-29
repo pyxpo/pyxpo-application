@@ -1,5 +1,7 @@
 # pyxpo-application
 
+[![CI](https://github.com/pyxpo/pyxpo-application/actions/workflows/ci.yml/badge.svg)](https://github.com/pyxpo/pyxpo-application/actions/workflows/ci.yml) [![PyPI](https://img.shields.io/pypi/v/pyxpo-application)](https://pypi.org/project/pyxpo-application/) [![Python](https://img.shields.io/pypi/pyversions/pyxpo-application)](https://pypi.org/project/pyxpo-application/) [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 The installed app's own identity for [pyxpo](https://github.com/pyxpo/pyxpo) apps, written in Python: app name,
 bundle or package id, version, build number, install and update time, and the signing details of the build. The
 names follow [expo-application](https://docs.expo.dev/versions/latest/sdk/application/), in Python style.
