@@ -17,7 +17,7 @@ from typing import Any, Optional
 
 from pyxpo.module_api import NotSupportedError, call, constants, platform, require_linked, require_supported
 
-__version__ = "0.1.0a1"
+__version__ = "0.1.0a2"
 
 _FIELDS = {
     "applicationName": "application_name", "applicationId": "application_id",

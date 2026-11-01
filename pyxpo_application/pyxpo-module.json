@@ -4,6 +4,9 @@
   "name": "application",
   "native": "Application",
   "ios": {
+    "privacyManifest": {"NSPrivacyAccessedAPITypes": [
+      {"NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryFileTimestamp", "NSPrivacyAccessedAPITypeReasons": ["C617.1"]}
+    ]},
     "classes": ["ApplicationModule"]
   },
   "android": {
